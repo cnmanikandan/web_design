@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+section{
+    display:-webkit-flex;
+    display: flex;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+ 
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #ccc;
+    padding: 20px;
+
+}
+article {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding:10px;
+  }
+footer{
+    background-color: #777;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+@media (max-width:600px) {
+    section{
+        -webkit-box-direction:column;
+        flex-direction: column;
+    }
+}

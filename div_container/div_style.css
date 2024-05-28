@@ -1,0 +1,22 @@
+.container{
+    background-color: red;
+    color:white;
+    width:  250px;
+    height:200px;
+    float: left;
+    cursor: pointer;
+    grid-template-columns: 33% 33% 33%;
+    border: 1px solid white;
+    border-radius: 15px;
+    
+}
+.head1{
+    text-align: center;
+
+}
+.para{
+    text-align: 12px right;
+}
+div a{
+    text-decoration: none;
+}
