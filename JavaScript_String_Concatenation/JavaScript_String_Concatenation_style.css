@@ -1,0 +1,13 @@
+*{
+    background-color: violet;
+}
+h1{
+    color: darkblue;
+}
+p{
+    color:rgba(4, 87, 2, 0.945);
+    font-size: 20px;
+}
+#demo{
+    color: rgb(250, 249, 249);
+}
