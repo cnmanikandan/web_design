@@ -1,0 +1,11 @@
+let x,y,z;
+x=5;
+y=10;
+z=x+y;
+document.getElementById("demo").innerHTML= "The Arithmetic Additon Operator : "+z;
+document.getElementById("demo1").innerHTML= "The Arithmetic Subtraction Operator : "+ (y-x) ;
+document.getElementById("demo2").innerHTML= "The Arithmetic Multiplication Operator : "+ (y*x) ;
+document.getElementById("demo3").innerHTML= "The Arithmetic Divition Operator : "+ (y/x) ;
+document.getElementById("demo4").innerHTML= "The Arithmetic Divition Operator : "+ (y%x) ;
+document.getElementById("demo5").innerHTML= "The Arithmetic Increment Operator : "+ (++x) ;
+document.getElementById("demo6").innerHTML= "The Arithmetic Decrement Operator : "+ (--y) ;
